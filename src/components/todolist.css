@@ -1,0 +1,65 @@
+.textField{
+margin-top: 10px;
+width: 70%;
+height: 40px;
+box-shadow: 2px 2px 2px black;
+}
+.addButton{
+    color:white;
+    background: blue;
+    height: 40px;
+    margin-left: 5px;
+}
+.todoContent{
+    background: silver;
+}
+.eachTodo{
+    background: #9a98a7;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: left;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.checkBox{
+    font-size: 25px;
+    color: white;
+    margin-left: 5px;
+}
+.checkBoxWithTick{
+    font-size: 25px;
+    color: white;
+    margin-left: 5px;
+}
+.todoDesc{
+    padding-left: 10px;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    word-wrap: break-word;
+   padding-right: 5px;
+}
+.deleteSymbol{
+    margin-left: 5px;
+    font-size: 25px;
+}
+.addButton{
+    width: 15%;
+    margin-left: 5%;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+}
+.todoDataContent{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.header{
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: fantasy;
+}
