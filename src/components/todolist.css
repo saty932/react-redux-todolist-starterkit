@@ -3,6 +3,7 @@ margin-top: 10px;
 width: 70%;
 height: 40px;
 box-shadow: 2px 2px 2px black;
+padding-left: 15px;
 }
 .addButton{
     color:white;
@@ -27,25 +28,25 @@ box-shadow: 2px 2px 2px black;
 
 }
 .checkBox{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     margin-left: 5px;
 }
 .checkBoxWithTick{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     margin-left: 5px;
 }
 .todoDesc{
     padding-left: 10px;
     font-family: Georgia, serif;
-    font-size: 25px;
+    font-size: 20px;
     word-wrap: break-word;
    padding-right: 5px;
 }
 .deleteSymbol{
     margin-left: 5px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .addButton{
     width: 15%;
@@ -62,4 +63,23 @@ box-shadow: 2px 2px 2px black;
     padding-top: 15px;
     font-weight: bold;
     font-family: fantasy;
+}
+.filterType{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.leftFilter{
+    float: left;
+    text-decoration:underline;
+    cursor: pointer;
+}
+.rightFilter{
+    float: right;
+    text-decoration:underline;
+    cursor: pointer;
 }

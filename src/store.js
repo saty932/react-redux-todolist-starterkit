@@ -1,5 +1,5 @@
 import { createStore} from 'redux';
-import todos from './reducers/todos';
+import rootReducer from './reducers/index';
 import thunk from 'redux-thunk';
 import {applyMiddleware} from 'redux';
 
@@ -7,7 +7,7 @@ const middleWare=[thunk];
 
 
 export const store=createStore(
- todos,applyMiddleware(...middleWare)
+ rootReducer,applyMiddleware(...middleWare)
 );
 
   // store.dispatch({
