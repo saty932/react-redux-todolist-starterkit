@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrashAlt,faFlagCheckered, faSquareFull, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
+import { faTrashAlt, faSquareFull, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 import {connect } from 'react-redux';
 import {addTodo,deletePost,changeStatusOfATodo} from '../actions/todoactions';
 import {updateVisibleFilter} from '../actions/visiblefilter';
